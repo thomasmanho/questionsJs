@@ -31,7 +31,7 @@ if (!roomId || roomId.length === 0) {
 }
 
 // TODO: Please change this URL for your app
-var firebaseURL = "https://classquestion.firebaseio.com/";
+var firebaseURL = "https://dazzling-fire-9144.firebaseio.com/";
 
 
 $scope.roomId = roomId;
@@ -82,7 +82,7 @@ $scope.getFirstAndRestSentence = function($string) {
 
 	var separators = [". ", "? ", "! ", '\n'];
 
-	var firstIndex = -1;
+	var firstIndex = -1;;
 	for (var i in separators) {
 		var index = $string.indexOf(separators[i]);
 		if (index == -1) continue;
